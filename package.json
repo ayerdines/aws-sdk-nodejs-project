@@ -2,13 +2,13 @@
   "dependencies": {
     "aws-sdk": "2.503.0"
   },
-  "name": "aws-nodejs-sample",
+  "name": "aws-nodejs",
   "description": "Application for encrypting objects inside a bucket.",
   "version": "1.0.1",
   "main": "main.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node $NODE_DEBUG_OPTION main.js"
   },
   "author": "NAME",
   "license": "ISC"
